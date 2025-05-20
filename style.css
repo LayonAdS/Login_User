@@ -1,0 +1,15 @@
+.cabecalho{
+    background-color: blueviolet;
+    border: 20px;
+    padding: 10px;
+    overflow: auto;
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(255, 0, 127);
+    
+}
+#bem{
+    text-align: center;
+    
+}
