@@ -7,9 +7,75 @@
 button{
     border-radius: 10px;
     background-color: rgb(255, 0, 127);
+    cursor: pointer;
     
 }
 #bem{
     text-align: center;
     
 }
+.cadastro{
+    text-align: left;
+}
+.form{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.cadastro {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cadastro label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+    font-weight: bold;
+  }
+  
+  /* Estilo dos campos de entrada e seleção */
+  .cadastro input[type="text"],
+  .cadastro input[type="tel"],
+  .cadastro input[type="email"],
+  .cadastro select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .cadastro input[type="text"]:focus,
+  .cadastro input[type="tel"]:focus,
+  .cadastro input[type="email"]:focus,
+  .cadastro select:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  /* Estilo do botão de envio */
+  .cadastro button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cadastro button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
